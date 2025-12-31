@@ -1,0 +1,17 @@
+{
+    "name": "r2-license-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node index.js"
+    },
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.958.0",
+        "@aws-sdk/s3-request-presigner": "^3.958.0",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1"
+    }
+}
